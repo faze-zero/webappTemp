@@ -8,7 +8,7 @@ import { Service } from '../service';
 })
 export class ServiceItemComponent implements OnInit {
 
-  @Input () service: Service;
+  @Input() service: Service;
   serviceId;
 
   constructor() { }

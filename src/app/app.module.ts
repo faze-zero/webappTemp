@@ -8,6 +8,9 @@ import { HeaderComponent } from './header.component';
 import { ServicesComponent } from './services/services.component';
 import { ServiceListComponent } from './services/service-list/service-list.component';
 import { ServiceItemComponent } from './services/service-list/service-item.component';
+import { ServiceDetailComponent } from './services/service-detail/service-detail.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
+import { ShoppingListAddComponent } from './shopping-list/shopping-list-add.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { ServiceItemComponent } from './services/service-list/service-item.compo
     HeaderComponent,
     ServicesComponent,
     ServiceListComponent,
-    ServiceItemComponent
+    ServiceItemComponent,
+    ServiceDetailComponent,
+    ShoppingListComponent,
+    ShoppingListAddComponent
   ],
   imports: [
     BrowserModule,
