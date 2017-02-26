@@ -12,7 +12,7 @@ import { ServiceDetailComponent } from './services/service-detail/service-detail
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingListAddComponent } from './shopping-list/shopping-list-add.component';
 import { DirectivesComponent } from './directives/directives.component';
-
+import { HighlightDirective } from './directives/highlight.directive';
 
 @NgModule({
   declarations: [
@@ -24,7 +24,8 @@ import { DirectivesComponent } from './directives/directives.component';
     ServiceDetailComponent,
     ShoppingListComponent,
     ShoppingListAddComponent,
-    DirectivesComponent
+    DirectivesComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,

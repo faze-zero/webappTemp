@@ -1,5 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
+import { HeaderComponent } from './header.component';
+import { ServicesComponent } from './services';
+import { ShoppingListComponent } from './shopping-list';
 import { DirectivesComponent } from './directives';
 
 @Component({
