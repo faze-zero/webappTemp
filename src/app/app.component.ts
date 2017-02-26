@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 import { HeaderComponent } from './header.component';
 import { ServicesComponent } from './services';
+import { ShoppingListComponent } from './shopping-list';
 
 @Component({
   selector: 'f0-root',
