@@ -11,15 +11,8 @@ import { ServiceItemComponent } from './services/service-list/service-item.compo
 import { ServiceDetailComponent } from './services/service-detail/service-detail.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingListAddComponent } from './shopping-list/shopping-list-add.component';
-<<<<<<< HEAD
 import { DirectivesComponent } from './directives/directives.component';
-<<<<<<< HEAD
-=======
->>>>>>> 0edf875... shooping and services new components
-=======
-import { DComponent } from './directives/d/d.component';
-import { HighlightDirective } from './directives/highlight.directive';
->>>>>>> 2e5e3e2... Inserting Directive component
+
 
 @NgModule({
   declarations: [
@@ -30,17 +23,8 @@ import { HighlightDirective } from './directives/highlight.directive';
     ServiceItemComponent,
     ServiceDetailComponent,
     ShoppingListComponent,
-<<<<<<< HEAD
     ShoppingListAddComponent,
-<<<<<<< HEAD
     DirectivesComponent
-=======
-    ShoppingListAddComponent
->>>>>>> 0edf875... shooping and services new components
-=======
-    DirectivesComponent,
-    HighlightDirective
->>>>>>> 2e5e3e2... Inserting Directive component
   ],
   imports: [
     BrowserModule,
