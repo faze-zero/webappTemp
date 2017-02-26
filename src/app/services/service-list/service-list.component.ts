@@ -19,7 +19,11 @@ export class ServiceListComponent implements OnInit {
   }
 
   onSelected( service: Service ) {
+<<<<<<< HEAD
     this.serviceSelected.emit(service);
+=======
+     this.serviceSelected.emit(service);
+>>>>>>> 0edf875... shooping and services new components
   }
 
 }

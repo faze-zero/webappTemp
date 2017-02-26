@@ -11,7 +11,10 @@ import { ServiceItemComponent } from './services/service-list/service-item.compo
 import { ServiceDetailComponent } from './services/service-detail/service-detail.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingListAddComponent } from './shopping-list/shopping-list-add.component';
+<<<<<<< HEAD
 import { DirectivesComponent } from './directives/directives.component';
+=======
+>>>>>>> 0edf875... shooping and services new components
 
 @NgModule({
   declarations: [
@@ -22,8 +25,12 @@ import { DirectivesComponent } from './directives/directives.component';
     ServiceItemComponent,
     ServiceDetailComponent,
     ShoppingListComponent,
+<<<<<<< HEAD
     ShoppingListAddComponent,
     DirectivesComponent
+=======
+    ShoppingListAddComponent
+>>>>>>> 0edf875... shooping and services new components
   ],
   imports: [
     BrowserModule,
