@@ -1,7 +1,7 @@
 import { Component, OnInit, EventEmitter, Output} from '@angular/core';
-
-import { ServiceItemComponent } from './service-item.component';
 import { Service } from '../service';
+import { ServiceItemComponent } from './service-item.component';
+
 
 @Component({
   selector: 'f0-service-list',
@@ -9,9 +9,12 @@ import { Service } from '../service';
 })
 export class ServiceListComponent implements OnInit {
 
-  services: Service[] = [];
+  services: Service[] = [
+  new Service('Computer fixing','Fixing your computer','http://www.gladesvillecomputers.com.au/wp-content/uploads/2015/11/computer-repair7.jpg',[]),
+  new Service('Cable organizing','Organizing your cables','http://www.idsforward.com/wp-content/uploads/2011/12/Final-Cable-Picture1.jpg',[])
+  ];
+
   @Output() serviceSelected = new EventEmitter<Service>();
-  service = new Service('Computer fixing','Fixing your computer','http://www.gladesvillecomputers.com.au/wp-content/uploads/2015/11/computer-repair7.jpg');
 
   constructor() { }
 
